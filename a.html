@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+       <meta charset="UTF-8">
+<script type="text/javascript">
+function check(){
+
+var str = document.getElementById('personName');
+
+
+
+if( str.value == '' || str.value == null ){
+    alert( '값을 입력해주세요' );
+    return false;
+}
+
+var blank_pattern = /^\s+|\s+$/g;
+if( str.value.replace( blank_pattern, '' ) == "" ){
+    alert(' 공백만 입력되었습니다 ');
+    return false;
+}
+
+
+
+//공백 금지
+//var blank_pattern = /^\s+|\s+$/g;(/\s/g
+var blank_pattern = /[\s]/g;
+if( blank_pattern.test( str.value) == true){
+    alert(' 공백은 사용할 수 없습니다. ');
+    return false;
+}
+
+
+var special_pattern = /[`~!@#$%^&*|\\\'\";:\/?]/gi;
+
+if( special_pattern.test(str.value) == true ){
+    alert('특수문자는 사용할 수 없습니다.');
+    return false;
+}
+
+alert( '최종 : ' + str.value );
+
+/*
+if( str.value.search(/\W|\s/g) > -1 ){
+    alert( '특수문자 또는 공백을 입력할 수 없습니다.' );
+    str.focus();
+    return false;
+}*/
+
+}
+</script>
+</head>
+<body>
+<input type="text" name="personName" id="personName"/>
+<input type="button" value="특수문자 체크" onClick="check()"/>
+</body>
+</html>
+
+
+
+출처: https://imonster.tistory.com/136 [앞으로 더 잘하고 싶다.]

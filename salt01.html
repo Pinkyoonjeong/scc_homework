@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .order_page {
+            width: 600px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .item_info {
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Nanum Gothic Coding', monospace;
+        }
+
+        .button {
+
+            margin: auto;
+            width: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="order_page">
+        <div>
+            <img src="https://postfiles.pstatic.net/MjAyMDA3MjBfMTM2/MDAxNTk1MTc1OTQzNjQ0.e1cdMM-p1KrhrGxduG8FdKpnw4WYyGqUECfQOb5G14Mg.hN4Qp52o1rezHOqyytv6foBusTwx9UZ6dvu-9k8y2wQg.JPEG.lovely2526/1.jpg?type=w966"
+                alt="침대" class="rounded" width="600px" height="500px">
+
+        </div>
+
+
+        <div class="p-2 mb-2 bg-dark text-white">
+            <font size="5em">푹신푹신 나무 침대 </font>
+            <font color="yellow"> 가격 : 199,800원 / 개</font>
+        </div>
+
+        <font size="1em">
+            <p class="font-weight-normal item_info">건강하려면 잠을 잘 자야 합니다! 잠을 잘 자려면? 편안한 숙면을 취할 수 있는 침대가
+                중요하죠! 어떤
+                침대냐에 따라서 우리가 취할 수 있는 숙면의 질은
+                어마어마한 차이를 보입니다! 이 푹신푹신 나무 침대는 북한산에서 벤 나무를 이용하여 절대 무너지지 않는 튼튼함을 지녔습니다! 거기다 침대 구입시 제공되는 매트리스가 어마어마합니다. 이
+                매트리스에 누우면
+                마치 구름위를 둥둥 떠다니는 느낌을 받을 수 있답니다.</p>
+        </font>
+
+        <div>
+            <div class="p-2 mb-2 bg-dark text-white">
+                <font size="5em">주문서 작성하기 </font>
+
+            </div>
+
+
+            <form>
+                <div class="form-group form-group">
+                    <label class="input-group-text col-sm-2" style="float:left; padding-right:2em">주문자 성함</label>
+                    <input type="text" class="form-control btn btn-secondary col-sm-10" style="float:initial" placeholder="주문자 성함을 입력하세요." id="orderName"/>
+                </div>
+                <div class="form-group"><label class="input-group-text col-sm-2" style="float:left;">수량</label> <select
+                        class="col-sm-10 form-control btn btn-secondary" id="orderNum">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group"><label class="input-group-text col-sm-2" style="float:left;">주소</label> <input type="text"
+                        class="col-sm-10 btn btn-secondary form-control" placeholder="주소를 입력하세요." id="place">
+                </div>
+                <div class="form-group"><label class="input-group-text col-sm-3" style="float:left;">전화번호</label> <input type="text"
+                        class="col-sm-9 btn btn-secondary form-control" placeholder="010-xxxx-xxxx" id="phoneNum">
+                </div>
+                <div class="form-group button"><input type="button" onclick="order()" class="btn btn-info col-sm-10"
+                        value="주문하기"></div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    function order() {
+        alert('주문이 완료되었습니다!');
+    }
+
+
+</script>
+
+</html>

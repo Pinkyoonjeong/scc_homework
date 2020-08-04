@@ -1,0 +1,120 @@
+더 나은 엔지니어가 될 수 있을까요
+
+Python linting, formatting, testing, 생산성을 위한 몸부림
+
+Multi-gpu 환경에서 자동으로 적절한 GPU 하나 골라서 학습하기
+
+생각하기, 소통하기, 개발 안 하고 개발시간 줄이기
+
+자주하는 PC 설정 - 20년도 하반기
+
+일과 나이
+
+Attention is all you need 논문 리뷰
+
+차별 없이 뇌와 성 이야기하기
+
+좋은 batch size 고르기
+
+nn U-Net 논문 리뷰
+
+Pearson correlation coefficient
+
+신뢰 수준, 신뢰 구간
+신뢰수준, 신뢰구간
+한국어 NLP를 위한 high-level API Koshort
+
+이전 곡 버튼에서 느낄 수 있는 UX에 대한 고민.
+
+연구의 빚
+
+Tensorflow-KR 모임
+
+이제와서 2016년 이야기
+
+Recurrent Neural Network
+세상의 많은 데이터는 어떤 'sequence'를 이루고 있어요. 예를 들자면 이 글을 읽고 있는 여러분이 제가 적은 단어 단어를 순차적으로 이어서 비로서 이해할 수 있는 점이 있겠죠. 이런 데이터를 Sequence data라고 말해요.
+Convolutional Neural Network
+Convolutional Neural Network의 Conv layer와 개념 이해하기
+Neural Network 반죽하기
+인공신경망(연결주의 시스템이라고도 불린다.)은 인간의 뇌가 문제를 푸는 방법에 빗대어 서로 연결된 수 많은 인공 뉴런(퍼셉트론)들로 군집을 이뤄 문제를 해결하고자 하는 컴퓨터적 접근이다. 각각의 유닛(퍼셉트론)이 이루는 형태는 행렬과 비슷하게 해석할 수 있다.
+더 나은 엔지니어가 될 수 있을까요
+
+Python linting, formatting, testing, 생산성을 위한 몸부림
+
+Multi-gpu 환경에서 자동으로 적절한 GPU 하나 골라서 학습하기
+
+생각하기, 소통하기, 개발 안 하고 개발시간 줄이기
+
+자주하는 PC 설정 - 20년도 하반기
+
+일과 나이
+
+Attention is all you need 논문 리뷰
+
+차별 없이 뇌와 성 이야기하기
+
+좋은 batch size 고르기
+
+nn U-Net 논문 리뷰
+
+Pearson correlation coefficient
+
+신뢰 수준, 신뢰 구간
+신뢰수준, 신뢰구간
+한국어 NLP를 위한 high-level API Koshort
+
+이전 곡 버튼에서 느낄 수 있는 UX에 대한 고민.
+
+연구의 빚
+
+Tensorflow-KR 모임
+
+이제와서 2016년 이야기
+
+Recurrent Neural Network
+세상의 많은 데이터는 어떤 'sequence'를 이루고 있어요. 예를 들자면 이 글을 읽고 있는 여러분이 제가 적은 단어 단어를 순차적으로 이어서 비로서 이해할 수 있는 점이 있겠죠. 이런 데이터를 Sequence data라고 말해요.
+Convolutional Neural Network
+Convolutional Neural Network의 Conv layer와 개념 이해하기
+Neural Network 반죽하기
+인공신경망(연결주의 시스템이라고도 불린다.)은 인간의 뇌가 문제를 푸는 방법에 빗대어 서로 연결된 수 많은 인공 뉴런(퍼셉트론)들로 군집을 이뤄 문제를 해결하고자 하는 컴퓨터적 접근이다. 각각의 유닛(퍼셉트론)이 이루는 형태는 행렬과 비슷하게 해석할 수 있다.
+더 나은 엔지니어가 될 수 있을까요
+
+Python linting, formatting, testing, 생산성을 위한 몸부림
+
+Multi-gpu 환경에서 자동으로 적절한 GPU 하나 골라서 학습하기
+
+생각하기, 소통하기, 개발 안 하고 개발시간 줄이기
+
+자주하는 PC 설정 - 20년도 하반기
+
+일과 나이
+
+Attention is all you need 논문 리뷰
+
+차별 없이 뇌와 성 이야기하기
+
+좋은 batch size 고르기
+
+nn U-Net 논문 리뷰
+
+Pearson correlation coefficient
+
+신뢰 수준, 신뢰 구간
+신뢰수준, 신뢰구간
+한국어 NLP를 위한 high-level API Koshort
+
+이전 곡 버튼에서 느낄 수 있는 UX에 대한 고민.
+
+연구의 빚
+
+Tensorflow-KR 모임
+
+이제와서 2016년 이야기
+
+Recurrent Neural Network
+세상의 많은 데이터는 어떤 'sequence'를 이루고 있어요. 예를 들자면 이 글을 읽고 있는 여러분이 제가 적은 단어 단어를 순차적으로 이어서 비로서 이해할 수 있는 점이 있겠죠. 이런 데이터를 Sequence data라고 말해요.
+Convolutional Neural Network
+Convolutional Neural Network의 Conv layer와 개념 이해하기
+Neural Network 반죽하기
+인공신경망(연결주의 시스템이라고도 불린다.)은 인간의 뇌가 문제를 푸는 방법에 빗대어 서로 연결된 수 많은 인공 뉴런(퍼셉트론)들로 군집을 이뤄 문제를 해결하고자 하는 컴퓨터적 접근이다. 각각의 유닛(퍼셉트론)이 이루는 형태는 행렬과 비슷하게 해석할 수 있다.
